@@ -1,7 +1,8 @@
-class code3{
+class code2{
     public static void main(String[] args) {
-        double a=10.50;
-        int b=(int)a;
+        int a=10;
+        double b=a;
         System.out.println(b);
+         System.out.println(a);
     }
 }
