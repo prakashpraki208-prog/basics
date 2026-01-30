@@ -1,7 +1,10 @@
-class code3{
+ class code3{
+    public static int getRandomNumber() {
+        return 100;
+    }
+    
     public static void main(String[] args) {
-        double a=10.50;
-        int b=(int)a;
-        System.out.println(b);
+        int result = getRandomNumber();  
+        System.out.println("Returned value: " + result);
     }
 }

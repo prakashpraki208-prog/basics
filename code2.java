@@ -1,8 +1,9 @@
-class code2{
+ class code2 {
+    public static void printNumber(int num) {
+        System.out.println("The number is: " + num);
+    }
+    
     public static void main(String[] args) {
-        int a=10;
-        double b=a;
-        System.out.println(b);
-         System.out.println(a);
+        printNumber(42);   
     }
 }
